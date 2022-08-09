@@ -1,9 +1,12 @@
-import { useState } from 'react'
+import { useCallback, useState } from 'react'
 import reactLogo from 'assets/react.svg'
 import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+
+  const increment = useCallback(() => setCount((x) => x + 1), [])
+
   return (
     <div className='App'>
       <div>
@@ -20,9 +23,7 @@ function App() {
       </h2>
 
       <div className='card'>
-        <button onClick={() => setCount((c) => c + 1)}>
-          <span>count is {count}</span>
-        </button>
+        <button onClick={increment}>count is {count}</button>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
