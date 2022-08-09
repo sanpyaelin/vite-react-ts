@@ -38,3 +38,6 @@ Now the ```preview``` command will launch the server at http://localhost:8080.
 
 ## Husky git hooks
 Run ```yarn prepare``` to enable git hook. [docs](https://typicode.github.io/husky/)
+
+## License
+This project is licensed under the MIT License.
