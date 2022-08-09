@@ -1,0 +1,11 @@
+.vscode
+dist/**
+build/**
+public/**
+coverage/**
+node_modules/**
+git/**
+*.css
+*.svg
+*.config.js
+ 

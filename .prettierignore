@@ -1,0 +1,7 @@
+node_modules
+dist
+public
+.husky
+vite-env.d.ts
+yarn.lock
+package-lock.json
